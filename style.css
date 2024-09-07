@@ -1,0 +1,34 @@
+/* Add this to your existing CSS or in a <style> tag in your HTML */
+nav a.active {
+  color: #1d4ed8; /* Example active color */
+  font-weight: bold;
+}
+
+header {
+  background: #222 !important;
+}
+
+body {
+  background: #222 !important;
+}
+
+h2 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 120px !important;
+  padding: 30px 0;
+  letter-spacing: 20px;
+  line-height: 1 !important; /* Adjust line-height to ensure proper spacing between lines */
+  word-break: break-word; /* Ensures long words break onto the next line properly */
+  opacity: 0.1;
+}
+
+section {
+  background: blue !important;
+  margin: 100px;
+  border-radius: 30px;
+}
+
+.project {
+  background: whitesmoke;
+}
