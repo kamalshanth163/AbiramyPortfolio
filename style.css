@@ -1,34 +1,109 @@
-/* Add this to your existing CSS or in a <style> tag in your HTML */
-nav a.active {
-  color: #1d4ed8; /* Example active color */
-  font-weight: bold;
-}
-
 header {
-  background: #222 !important;
+  background: #111 !important;
+  padding: 20px 0px;
 }
 
 body {
-  background: #222 !important;
+  background: #111;
+  /* background: url("./images/bg.png"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.big-text {
+  font-size: 120px !important;
+}
+
+.logo-text {
+  color: white;
+}
+
+.logo-text-2 {
+  color: #1b76c6;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #3b82f6;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #3b82f6;
 }
 
 h2 {
-  color: black;
+  color: white;
   text-transform: uppercase;
-  font-size: 120px !important;
+  font-size: 60px !important;
   padding: 30px 0;
   letter-spacing: 20px;
-  line-height: 1 !important; /* Adjust line-height to ensure proper spacing between lines */
-  word-break: break-word; /* Ensures long words break onto the next line properly */
-  opacity: 0.1;
+  line-height: 1 !important;
+  word-break: break-word;
+  opacity: 0.8;
+}
+
+.sections-container {
+  width: 80%;
+  align-content: center;
+  margin: 0px auto;
 }
 
 section {
-  background: blue !important;
-  margin: 100px;
+  /* background: rgba(212, 212, 212, 0.856) !important; */
+  background: none;
+  padding: 80px;
+  width: auto;
+  min-height: 80vh;
+  margin: 20px auto;  
   border-radius: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section.section-top {
+  /* border-radius: 30px 30px 0 0; */
+}
+section.section-mid {
+  /* border-radius: 0px; */
+}
+section.section-bottom {
+  /* border-radius: 0px 0px 30px 30px; */
+}
+
+.section-2 {
+  background: url("./images/bg-section-2.png") !important;
+}
+
+.section-5 {
+  background: url("./images/bg-section-2.png") !important;
+}
+
+.skill {
+  background: rgb(23, 23, 23);
+  color: white;
+  padding: 20px;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.skill:hover {
+  background: rgb(34, 34, 34);
 }
 
 .project {
-  background: whitesmoke;
+  background: #202020;
+  color: white !important;
+  cursor: pointer;
+}
+
+footer {
+  background: none;
+  padding: 100px 0px !important;
 }
