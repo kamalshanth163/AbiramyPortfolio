@@ -1,14 +1,14 @@
 header {
-  background: #111 !important;
+  background: #000 !important;
   padding: 20px 0px;
 }
 
 body {
-  background: #111;
-  /* background: url("./images/bg.png"); */
+  background: #000;
+  background: url("./images/bg.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .big-text {
@@ -20,7 +20,7 @@ body {
 }
 
 .logo-text-2 {
-  color: #1b76c6;
+  color: #3766ff;
 }
 
 .nav-link {
@@ -29,12 +29,12 @@ body {
 }
 
 .nav-link:hover {
-  color: #3b82f6;
+  color: #3766ff;
 }
 
 .nav-link.active {
   font-weight: bold;
-  color: #3b82f6;
+  color: #3766ff;
 }
 
 h2 {
@@ -48,6 +48,10 @@ h2 {
   opacity: 0.8;
 }
 
+h3 {
+  font-size: 30px !important;
+}
+
 .sections-container {
   width: 80%;
   align-content: center;
@@ -56,15 +60,16 @@ h2 {
 
 section {
   /* background: rgba(212, 212, 212, 0.856) !important; */
-  background: none;
+  background: none !important;
+  opacity: 0.9;
   padding: 80px;
-  width: auto;
+  width: 100%;
   min-height: 80vh;
   margin: 20px auto;  
   border-radius: 30px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
 
 section.section-top {
@@ -77,12 +82,36 @@ section.section-bottom {
   /* border-radius: 0px 0px 30px 30px; */
 }
 
+.section-1 {
+  /* background: url("./images/bg-section-1.png") !important; */
+}
+
 .section-2 {
   background: url("./images/bg-section-2.png") !important;
 }
 
+.section-3 {
+  /* background: url("./images/bg-section-2.png") !important; */
+}
+
+.section-4 {
+  /* background: url("./images/bg-section-2.png") !important; */
+}
+
 .section-5 {
-  background: url("./images/bg-section-2.png") !important;
+  background: url("./images/bg-section-5.png") !important;
+}
+
+.color-dot {
+  color: #3d40f8;
+}
+
+.bg-blue-500 {
+  background: #3d40f8;
+}
+
+.bg-blue-500:hover {
+  background: #2123a3;
 }
 
 .skill {
@@ -98,9 +127,23 @@ section.section-bottom {
 }
 
 .project {
-  background: #202020;
+  background: #202020bb;
   color: white !important;
   cursor: pointer;
+}
+
+.contact-section {
+  align-content: center;
+}
+
+.contact-section .email a {
+  color: white;
+  font-size: 30px;
+}
+
+.contact-section .phone a {
+  color: rgb(198, 198, 198);
+  font-size: 30px;
 }
 
 footer {
