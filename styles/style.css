@@ -1,3 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+}
+
 header {
   background: #000 !important;
   padding: 20px 0px;
@@ -5,7 +13,7 @@ header {
 
 body {
   background: #000;
-  background: url("./images/bg.png");
+  background: url("../images/bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,7 +28,7 @@ body {
 }
 
 .logo-text-2 {
-  color: #3766ff;
+  color: #4974f5;
 }
 
 .nav-link {
@@ -29,12 +37,12 @@ body {
 }
 
 .nav-link:hover {
-  color: #3766ff;
+  color: #4974f5;
 }
 
 .nav-link.active {
   font-weight: bold;
-  color: #3766ff;
+  color: #4974f5;
 }
 
 h2 {
@@ -45,11 +53,17 @@ h2 {
   letter-spacing: 20px;
   line-height: 1 !important;
   word-break: break-word;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 h3 {
   font-size: 30px !important;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 100;
+  color: white !important;
 }
 
 .sections-container {
@@ -75,7 +89,7 @@ section {
   background: none;
 }
 .section-2 {
-  background: url("./images/bg-section-2.png") !important;
+  background: url("../images/bg-section-2.png") !important;
 }
 .section-3 {
   background: none;
@@ -84,7 +98,7 @@ section {
   background: none;
 }
 .section-5 {
-  background: url("./images/bg-section-5.png") !important;
+  background: url("../images/bg-section-5.png") !important;
 }
 
 .color-dot {
@@ -126,12 +140,42 @@ section {
   font-size: 30px;
 }
 
+.contact-section .email a:hover {
+  color: rgb(255, 255, 255);
+}
+
 .contact-section .phone a {
-  color: rgb(198, 198, 198);
+  color: rgb(255, 255, 255);
   font-size: 30px;
+}
+
+.contact-section .phone a:hover {
+  color: rgb(255, 255, 255);
 }
 
 footer {
   background: none;
   padding: 100px 0px !important;
+}
+
+.social-links {
+  background: none;
+  padding: 20px;
+}
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: #111;
+  font-size: 60px;
+}
+.social-links a {
+  color: rgb(233, 233, 233);
+}
+.social-links a:hover {
+  color: rgb(255, 255, 255);
 }

@@ -4,10 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
     <title>Abi's Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
-    <link href="style.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="./images/tab-icon.png" />
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./styles/all.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
   </head>
 
   <body>
@@ -56,10 +61,14 @@
             <img src="./images/profile-pic.png" class="w-full md:w-1/3 h-auto rounded-full" alt="Profile Picture" />
             <div class="m-8 md:mt-0 md:ml-8 px-12">
               <h2 class="text-3xl font-bold mb-4">About Me</h2>
-              <p class="text-gray-400 leading-relaxed mb-8">
-                Hi! This is Abiramy. As a passionate web developer, I bring extensive experience in React and .NET (C#), utilizing tools such as Visual Studio, VS Code, and Git to create efficient, scalable applications. My proficiency in cloud platforms like Azure and AWS enhances my ability to deliver comprehensive solutions that meet modern development standards. I'm committed to continuous learning and staying current with technological trends, always seeking to expand my skill set.
+              
+              <p class="text-gray-200 leading-relaxed mb-8">
+                Hi, I'm Abiramy,
               </p>
-              <p class="text-gray-400 leading-relaxed mb-8">
+              <p class="text-gray-200 leading-relaxed mb-8">
+                As a passionate Full Stack Developer, I bring extensive experience in React and .NET (C#), utilizing tools such as Visual Studio, VS Code, and Git to create efficient, scalable applications. My proficiency in cloud platforms like Azure and AWS enhances my ability to deliver comprehensive solutions that meet modern development standards. I'm committed to continuous learning and staying current with technological trends, always seeking to expand my skill set.
+              </p>
+              <p class="text-gray-200 leading-relaxed mb-8">
                 I am currently delving into advanced frontend frameworks and exploring DevOps practices, including CI/CD pipelines, to build robust and resilient web applications. My passion for backend development drives me to further deepen my expertise in .NET and cloud solutions, ensuring that I can tackle complex challenges with innovative, future-ready approaches.
               </p>
 
@@ -96,9 +105,9 @@
           <div class="grid md:grid-cols-1 gap-3 mb-16 justify-center">
   
             <!-- Project 1 -->
-            <div class="project p-12 rounded-lg shadow-lg">
-              <h3 class="text-xl font-bold mb-12">E-commerce Website & Integration Service</h3>
-              <p class="text-gray-400 mb-6">Developed an e-commerce platform for the New Zealand market with real-time stock updates and integration with MYOB EXO.</p>
+            <div class="project px-16 py-12 rounded-lg shadow-lg">
+              <h3 class="text-xl font-bold mb-8">E-commerce Website & Integration Service</h3>
+              <p class="text-gray-200 mb-6">Developed an e-commerce platform for the New Zealand market with real-time stock updates and integration with MYOB EXO.</p>
               <h4 class="text-lg font-semibold">Tools & Technologies:</h4>
               <ul class="flex flex-wrap gap-2 my-6">
                 <li class="bg-blue-500 text-white py-1 px-3 rounded-full">WordPress</li>
@@ -107,8 +116,8 @@
                 <li class="bg-blue-500 text-white py-1 px-3 rounded-full">Azure</li>
                 <li class="bg-blue-500 text-white py-1 px-3 rounded-full">MySQL</li>
               </ul>
-              <h4 class="text-lg font-semibold">Responsibilities:</h4>
-              <ul class="list-disc ml-4 text-gray-400">
+              <h4 class="text-lg font-semibold mb-2">Responsibilities:</h4>
+              <ul class="list-disc ml-4 text-gray-200">
                 <li>Managed product info and order management.</li>
                 <li>Integrated MYOB EXO for inventory.</li>
                 <li>Developed real-time product updates.</li>
@@ -122,12 +131,12 @@
           <div class="grid md:grid-cols-1 gap-3 justify-center">
   
             <!-- Personal Project 1 -->
-            <div class="project p-12 rounded-lg shadow-lg">
-              <h3 class="text-xl font-bold text-white mb-2">SocialApp</h3> <!-- Project title in white -->
+            <div class="project px-16 py-12 rounded-lg shadow-lg">
+              <h3 class="text-xl font-bold text-white mb-4">SocialApp</h3> <!-- Project title in white -->
               <a href="https://appsocial.azurewebsites.net" target="_blank" class="text-blue-500 underline">
                 https://appsocial.azurewebsites.net
               </a>
-              <p class="text-gray-400 my-10">
+              <p class="text-gray-200 my-6">
                 A social platform to connect like-minded individuals with photo sharing and chat functionalities.
               </p>
               <ul class="flex flex-wrap gap-2 mb-4">
@@ -147,7 +156,7 @@
         <div class="container mx-auto px-4 text-center">
           <h2 class="text-3xl font-bold mb-8">Contact Me</h2>
                         
-          <p class="text-gray-400 leading-relaxed mb-8">
+          <p class="text-gray-200 leading-relaxed mb-8">
             Let’s connect if you’re looking for someone who thrives on innovation and continuous learning in web and cloud development!
           </p>
           
@@ -165,18 +174,27 @@
             </a>
           </div>
         </div>
+
+
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/kamalshanthselvarajah" target="_black" class="linkedin"><i class="fab fa-linkedin"></i></a> 
+          <a href="https://github.com/kamalshanth163" target="_black" class="github"><i class="fab fa-github"></i></a>
+        </div>
+
       </section>
     </div>
 
     <!-- Footer -->
     <footer class="footer py-6">
-      <div class="container mx-auto px-4 text-center text-gray-400">
+      <div class="container mx-auto px-4 text-center text-gray-200">
         <p>&copy; 2024 Abiramy Velavan. All rights reserved.</p>
       </div>
     </footer>
 
     <!-- Scripts -->
-    <script src="script.js"></script>
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/all.min.js"></script>
+    <script src="./scripts/jquery.3.4.1.js"></script>
 
   </body>
 
