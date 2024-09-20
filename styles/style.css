@@ -72,6 +72,19 @@ p {
   margin: 0px auto;
 }
 
+.section {
+  background: none !important;
+  opacity: 0.9;
+  padding: 80px;
+  width: 100%;
+  min-height: 80vh;
+  margin: 20px auto;  
+  border-radius: 30px;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
 section {
   background: none !important;
   opacity: 0.9;
@@ -90,6 +103,9 @@ section {
 }
 .section-2 {
   background: url("../images/bg-section-2.png") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
 .section-3 {
   background: none;
@@ -99,6 +115,9 @@ section {
 }
 .section-5 {
   background: url("../images/bg-section-5.png") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
 
 .color-dot {
