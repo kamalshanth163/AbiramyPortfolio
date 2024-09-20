@@ -28,7 +28,7 @@ body {
 }
 
 .logo-text-2 {
-  color: #4974f5;
+  color: #6060f3;
 }
 
 .nav-link {
@@ -37,12 +37,12 @@ body {
 }
 
 .nav-link:hover {
-  color: #4974f5;
+  color: #6060f3;
 }
 
 .nav-link.active {
   font-weight: bold;
-  color: #4974f5;
+  color: #6060f3;
 }
 
 h2 {
@@ -102,15 +102,15 @@ section {
 }
 
 .color-dot {
-  color: #3d40f8;
+  color: #6060f3;
 }
 
 .bg-blue-500 {
-  background: #3d40f8;
+  background: #5151dc;
 }
 
 .bg-blue-500:hover {
-  background: #2123a3;
+  background: #6060f3;
 }
 
 .skill {
